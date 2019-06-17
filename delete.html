@@ -1,0 +1,18 @@
+<html>
+ <body>
+        
+<h1>Deleting the employee Details</h1>
+<form action ="http://localhost:3000/del/{{id}}?_method=DELETE"  method ="POST">
+    
+    <input type="number" name="id" >
+    <br><br>
+    
+  
+    <input type="hidden" name="_method" value="DELETE">
+
+    <input type="submit" value="delete">
+</form>
+
+</body>   
+ 
+</html>
